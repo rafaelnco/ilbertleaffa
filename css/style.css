@@ -63,6 +63,7 @@ header {
 	background-color: transparent;
 	padding: 0.5em;
 	text-transform: uppercase;
+    border: 1px solid white;
 }
 .carousel-inner>.item:nth-child(1) .bg {
 	background-image: url('../images/bg2.jpg');
