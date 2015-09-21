@@ -17,3 +17,13 @@ html, body {
     left: 10%;
     padding-bottom: 30px;
 }
+.carousel {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.carousel-inner>.item>img {
+	max-width: 50%;
+	width: 50%;
+	margin-left: auto;
+}
