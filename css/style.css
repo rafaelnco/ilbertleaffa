@@ -33,7 +33,7 @@ header {
 	text-align: center;
 }
 .carousel-caption {
-    top: 15%;
+    top: 35%;
     font-size: x-large;
     width: 25%;
     left: 17%;
@@ -61,5 +61,17 @@ header {
 	background-image: url('../images/bg3.jpg');
 }
 .carousel-inner>.item:nth-child(3) {
-	background-image: url('../images/bg2.jpg');
+	background-image: url('../images/bg4.jpg');
+}
+.carousel-inner>.item:nth-child(4) {
+	background-image: url('../images/bg5.jpg');
+}
+.carousel-inner>.item:nth-child(5) {
+	background-image: url('../images/bg6.jpg');
+}
+.carousel-inner>.item:nth-child(6) {
+	background-image: url('../images/bg7.jpg');
+}
+.carousel-inner>.item:nth-child(7) {
+	background-image: url('../images/bg8.jpg');
 }
