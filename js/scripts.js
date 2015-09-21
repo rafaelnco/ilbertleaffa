@@ -11,4 +11,12 @@ setTimeout(
 			interval: 6000,
 			pause: "no"
 		})
-	}, 3000)
+	}, 3000);
+$(document).ready(function() {  
+	$("#main-carousel").swiperight(function() {  
+		$(this).carousel('prev');  
+	});  
+	$("#main-carousel").swipeleft(function() {  
+		$(this).carousel('next');  
+	});  
+});
