@@ -83,5 +83,17 @@ header {
 }
 
 @media (max-width: 768px) {
-	
+	.social {
+		display: block;
+	}
+	.social > * {
+		padding: 0.3em;
+	}
+	.carousel-caption {
+	    top: 35%;
+	    font-size: medium;
+	    width: 50%;
+	    left: 25%;
+	    padding-bottom: 30px;
+	}
 }
