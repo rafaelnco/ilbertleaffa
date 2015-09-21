@@ -102,5 +102,6 @@ header {
 	}
 	.carousel-caption h2 {
 		font-size: 21px;
+		padding: 0.2em;
 	}
 }
