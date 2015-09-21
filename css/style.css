@@ -31,6 +31,7 @@ header {
 	width: 100%;
 	z-index: 1;
 	text-align: center;
+	padding: 1em;
 }
 .carousel-caption {
     top: 35%;
@@ -50,9 +51,14 @@ header {
 	margin-left: auto;
 }
 .carousel-inner>.item {
-	    background-size: cover;
+    background-size: cover;
     height: 100vh;
     background-position: center;
+}
+.carousel-inner>.item button {
+	background-color: transparent;
+	padding: 0.5em;
+	text-transform: uppercase;
 }
 .carousel-inner>.item:nth-child(1) {
 	background-image: url('../images/bg2.jpg');
@@ -74,4 +80,8 @@ header {
 }
 .carousel-inner>.item:nth-child(7) {
 	background-image: url('../images/bg8.jpg');
+}
+
+@media (max-width: 768px) {
+	
 }

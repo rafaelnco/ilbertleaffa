@@ -5,6 +5,10 @@ Splash.enable('windcatcher');
 window.onload = function() {
 	Splash.destroy();
 }
-$('#main-carousel').carousel({
-	interval: 6000
-})
+setTimeout(
+	function() {
+		$('#main-carousel').carousel({
+			interval: 6000,
+			pause: "no"
+		})
+	}, 3000)
