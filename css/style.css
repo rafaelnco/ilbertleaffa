@@ -45,40 +45,44 @@ header {
 	width: 100%;
 	bottom: 0;
 }
-.carousel-inner>.item>img {
+.carousel-inner>.item img {
 	max-width: 100%;
 	width: 100%;
 	margin-left: auto;
 }
-.carousel-inner>.item {
+.carousel-inner>.item .bg {
     background-size: cover;
     height: 100vh;
     background-position: center;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
 }
 .carousel-inner>.item button {
 	background-color: transparent;
 	padding: 0.5em;
 	text-transform: uppercase;
 }
-.carousel-inner>.item:nth-child(1) {
+.carousel-inner>.item:nth-child(1) .bg {
 	background-image: url('../images/bg2.jpg');
 }
-.carousel-inner>.item:nth-child(2) {
+.carousel-inner>.item:nth-child(2) .bg {
 	background-image: url('../images/bg3.jpg');
 }
-.carousel-inner>.item:nth-child(3) {
+.carousel-inner>.item:nth-child(3) .bg {
 	background-image: url('../images/bg4.jpg');
 }
-.carousel-inner>.item:nth-child(4) {
+.carousel-inner>.item:nth-child(4) .bg {
 	background-image: url('../images/bg5.jpg');
 }
-.carousel-inner>.item:nth-child(5) {
+.carousel-inner>.item:nth-child(5) .bg {
 	background-image: url('../images/bg6.jpg');
 }
-.carousel-inner>.item:nth-child(6) {
+.carousel-inner>.item:nth-child(6) .bg {
 	background-image: url('../images/bg7.jpg');
 }
-.carousel-inner>.item:nth-child(7) {
+.carousel-inner>.item:nth-child(7) .bg {
 	background-image: url('../images/bg8.jpg');
 }
 
