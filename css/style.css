@@ -64,6 +64,12 @@ header {
 	padding: 0.5em;
 	text-transform: uppercase;
     border: 1px solid white;
+	transition: 1s color, 1s background-color;
+}
+.carousel-inner>.item button:hover {
+	color: black;
+	background-color: white;
+	transition: 1s color, 1s background-color;
 }
 .carousel-inner>.item:nth-child(1) .bg {
 	background-image: url('../images/bg2.jpg');
