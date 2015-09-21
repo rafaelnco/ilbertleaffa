@@ -45,7 +45,21 @@ header {
 	bottom: 0;
 }
 .carousel-inner>.item>img {
-	max-width: 50%;
-	width: 50%;
+	max-width: 100%;
+	width: 100%;
 	margin-left: auto;
+}
+.carousel-inner>.item {
+	    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.carousel-inner>.item:nth-child(1) {
+	background-image: url('../images/bg2.jpg');
+}
+.carousel-inner>.item:nth-child(2) {
+	background-image: url('../images/bg3.jpg');
+}
+.carousel-inner>.item:nth-child(3) {
+	background-image: url('../images/bg2.jpg');
 }
