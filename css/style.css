@@ -92,7 +92,21 @@ header {
 .carousel-inner>.item:nth-child(7) .bg {
 	background-image: url('../images/bg8.jpg');
 }
-
+.modal-content {
+	background-color: transparent;
+}
+.modal-bg {
+	background-color: rgba(255,255,255,0.8);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 @media (max-width: 768px) {
 	.social {
 		display: block;
