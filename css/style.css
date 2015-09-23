@@ -72,25 +72,25 @@ header {
 	transition: 1s color, 1s background-color;
 }
 .carousel-inner>.item:nth-child(1) .bg {
-	background-image: url('../images/768/bg2.jpg');
+	background-image: url('../images/bg1.jpg');
 }
 .carousel-inner>.item:nth-child(2) .bg {
-	background-image: url('../images/768/bg3.jpg');
+	background-image: url('../images/bg2.jpg');
 }
 .carousel-inner>.item:nth-child(3) .bg {
-	background-image: url('../images/768/bg4.jpg');
+	background-image: url('../images/bg3.jpg');
 }
 .carousel-inner>.item:nth-child(4) .bg {
-	background-image: url('../images/768/bg5.jpg');
+	background-image: url('../images/bg4.jpg');
 }
 .carousel-inner>.item:nth-child(5) .bg {
-	background-image: url('../images/768/bg6.jpg');
+	background-image: url('../images/bg5.jpg');
 }
 .carousel-inner>.item:nth-child(6) .bg {
-	background-image: url('../images/768/bg7.jpg');
+	background-image: url('../images/bg6.jpg');
 }
 .carousel-inner>.item:nth-child(7) .bg {
-	background-image: url('../images/768/bg8.jpg');
+	background-image: url('../images/bg7.jpg');
 }
 .modal-content {
 	background-color: transparent;
