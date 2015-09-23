@@ -54,10 +54,10 @@ header {
     background-size: cover;
     height: 100vh;
     background-position: center;
-    -webkit-filter: blur(2px);
+/*    -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
-    filter: blur(2px);
+    filter: blur(2px);*/
 }
 .carousel-inner>.item button {
 	background-color: transparent;
